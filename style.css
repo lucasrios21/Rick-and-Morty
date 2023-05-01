@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    text-align: center;
+    background-image: url(fondo.jpg);
+    
+    
+}
+#resultado{
+    
+    display: grid;
+    grid-template-columns: repeat(5,5);
+    grid-template-rows: auto;
+    
+   
+}
+
+h1{
+    font-size: 70px;
+}
+#paginas{
+    font-size: 20px;
+    background-color: rgb(56, 255, 89);
+    padding: 10px;
+    color: white;
+    position: fixed;
+    left: 560px;
+    top: 380px;
+    border-radius: 10px;
+
+}
+.quees{
+    color: green;
+}
+
+#logo{
+    width: 550px;
+    position:fixed;
+    top: 130px;
+    left: 530px;
+    
+}
+
+#nav{
+    position: fixed;
+    left: 700px;
+    top: 380px;
+    border-radius: 10px;
+    
+}
