@@ -13,7 +13,7 @@ const apiRick = async (pagina) => {
         <div class="card-body">
             <h5 class="card-title">Nombre: ${item.name}</h5>
             <p class="card-text">Estado: ${item.status}</p>
-            <p class="card-text">Especie: ${item.especies}</p>
+            <p class="card-text">Especie: ${item.species}</p>
             <p class="card-text">Género: ${item.gender}</p>
             <p class="card-text">Locación: ${item.location.name}</p>
             
@@ -23,4 +23,6 @@ const apiRick = async (pagina) => {
         divRes.appendChild(divItem);
     })
 }
+
+
 apiRick(1);

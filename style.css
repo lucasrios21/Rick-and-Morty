@@ -1,3 +1,25 @@
+
+#trea{
+    width: 300px;
+    position:fixed;
+    bottom: 0px;
+    left: 250px;
+    transform: rotate(-30deg);
+    
+
+}
+#trea:hover{
+    width: 300px;
+    position:fixed;
+    bottom: 0px;
+    left: 250px;
+    transform: rotate(-0deg);
+    
+}
+    
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -51,5 +73,61 @@ h1{
     left: 700px;
     top: 380px;
     border-radius: 10px;
+    
+}
+
+#dos{
+    width: 250px;
+    position:fixed;
+    bottom: -6px;
+    left: 1080px;
+    
+}
+
+
+#dos:hover{
+    transform: rotate(-20deg);
+    
+    
+    
+}
+
+
+#boton{
+   background-color: rgb(56, 255, 89);
+   border-radius: 10px;
+   padding: 10px;
+   border: none;
+   position: fixed;
+   left: 1010px;
+   top: 385px;
+   border-radius: 10px;
+    
+    
+}
+
+
+#boton:hover{
+    background-color: rgb(254, 255, 254);
+    
+     
+     
+ }
+
+
+
+ #cua{
+    width: 250px;
+    position:fixed;
+    top: 0px;
+    left: 1080px;
+    
+}
+
+
+#cua:hover{
+    transform: rotate(-20deg);
+    
+    
     
 }
